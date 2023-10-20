@@ -12,9 +12,10 @@ export default function ShoppingListForm() {
   return (
     <form>
       <h1>Product is: {formData.product}</h1>
-      <label htmlFor="product">Product Name</label>
+      <label htmlFor="product">Product Name: </label>
       <input
         type="text"
+        className="product"
         placeholder="product name"
         name="product"
         id="product"
